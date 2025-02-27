@@ -45,4 +45,4 @@ return (
 );
 }
 
-export default Home;  // export the Home component
+export default Home;  
