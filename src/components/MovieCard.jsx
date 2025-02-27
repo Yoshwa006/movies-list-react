@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import "../css/MovieCard.css";
 function MovieCard({movie}){
 
     function onFavoriteClick(){

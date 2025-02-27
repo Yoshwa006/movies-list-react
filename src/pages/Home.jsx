@@ -1,6 +1,6 @@
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
-
+import "../css/Home.css";
 function Home(){
 
     const[search, setSearch] = useState("");
@@ -8,8 +8,9 @@ function Home(){
     const movies = [
         {id :1, title : "puli", release_date : "2014"},
         {id :2, title : "puli2", release_date : "2010"},
-        {id :3, title : "The Dark Knight", release_date : "2008" }
-    ]
+        {id :3, title : "The Dark Knight", release_date : "2008" },
+        {id :2, title : "puli2", release_date : "2010"}
+      ]
 
     const handleSearch = (e) =>{
     e.preventDefault();

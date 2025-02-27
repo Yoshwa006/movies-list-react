@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom"
-
+import "../css/Navbar.css";
 function NavBar(){
     return (
       <nav className="navbar">
@@ -8,7 +8,7 @@ function NavBar(){
         </div>
         <div className="navbar-links">
           <Link to ="/" className="nav-link">Home</Link>
-          <Link to ="/" className="nav-link">Favorite</Link>
+          <Link to ="/favorite" className="nav-link">Favorite</Link>
         </div>
       </nav>
     );
